@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Shivanya</string>
+    <string name="action_settings">Settings</string>
+    <string name="kk">भाषा</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="title_activity_navigation_drawer">Shivanya</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shivanya</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="name">कर्मचार्‍याचे नाव</string>
+    <string name="address">कर्मचार्‍याचा पत्ता</string>
+    <string name="city">शहर</string>
+    <string name="state">राज्य</string>
+    <string name="dob">जन्मदिवस</string>
+    <string name="mobno">मोबाइल नंबर 1</string>
+    <string name="mailid">मेल आयडी</string>
+    <string name="bloodgr">रक्तगट</string>
+    <string name="department">डिपार्टमेंट</string>
+    <string name="designation">डेसिग्नेशन </string>
+    <string name="dateToJoin">कामावर रुजू  झालेली तारीख </string>
+    <string name="payment">मूलभूत वेतन </string>
+    <string name="time">कामाची वेळ </string>
+    <string name="education">शिक्षण</string>
+    <string name="specialization">स्पेशलायझेशन</string>
+    <string name="experience">अनुभव</string>
+    <string name="documents">कागदपत्रं</string>
+    <string name="mobno2">मोबाइल नंबर 2</string>
+    <string name="homeMobNo">घरचा मोबाइल नंबर</string>
+    <string name="back">मागे जा</string>
+
+    <string name="menu_home">डॅशबोर्ड</string>
+    <string name="menu_gallery">प्रोफाइल तपशील</string>
+    <string name="menu_slideshow">कलेक्शन यादी</string>
+    <string name="menu_tools">संदेश</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_profile_details">ProfileDetailsActivity</string>
+    <string name="title_activity_forget_password">पासवर्ड बदला</string>
+    <string name="title_activity_collection_details">कलेक्शनचा तपशील</string>
+
+
+    <string name="employeeId">अ. क्र.</string>
+    <string name="title_activity_todays_collection">आजचे कलेक्शन</string>
+    <string name="title_activity_todays_details_for">आजची कलेक्शन यादी</string>
+
+    <string name="employeeName">अर्जदाराचे  नाव</string>
+    <string name="employeeAddress">अर्जदाराचा पत्ता</string>
+    <string name="employeeMobno">मोबाईल  नंबर</string>
+    <string name="employeeEmailid">मेल आयडी</string>
+    <string name="employeeDate">तारीख</string>
+
+    <string name="title_activity_pending_collection">प्रलंबित कलेक्शन</string>
+    <string name="loanNo">कर्जाचा अ. क्र.</string>
+
+    <string name="loanAmount">कर्जाची रक्कम</string>
+    <string name="todaysCollection">आजचे कलेक्शन</string>
+    <string name="PendingAmount">शिल्लक रक्कम</string>
+    <string name="DateToPay">तारीख</string>
+    <string name="title_activity_todays_collection_details">आजच्या कलेक्शनचा तपशील</string>
+    <string name="title_activity_send_msg">संदेश पाठवा</string>
+    <string name="selectEmployee">अर्जदारा निवडा</string>
+
+
+    <string name="selectAll">सगळे निवडा</string>
+    <string name="mno">मोबाइल नंबर</string>
+    <string name="title_activity_birth_day_msg">वाढदिवसाचे संदेश</string>
+</resources>

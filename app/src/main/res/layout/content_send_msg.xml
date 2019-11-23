@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SendMsg"
+    tools:showIn="@layout/activity_send_msg"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/selectEmployee"
+                android:textStyle="bold"
+                android:textSize="15sp"
+
+                />
+        </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shaperound"
+                android:drawableRight="@drawable/ic_person_black_24dp"
+
+                />
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="@string/selectAll"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/year"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearlayout"
+android:visibility="gone"
+            >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mno"
+                android:textStyle="bold"
+                android:textSize="15sp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shaperound"
+                android:drawableRight="@drawable/ic_local_phone_black_24dp"
+
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_tools"
+                android:textStyle="bold"
+                android:textSize="15sp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:id="@+id/EditText02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="5"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:background="@drawable/shaperound"
+                />
+        </LinearLayout>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_activity_send_msg"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/White"
+                android:background="@drawable/buttonshaperoundcolor"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_weight="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id = "@+id/relativeLayout1"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:background="@color/colorPrimaryDark"
+                >
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/cell_shape_start"
+                    android:gravity = "center"
+                    >
+
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+
+                        android:gravity = "center"
+                        android:padding = "5dp"
+                        android:text = "@string/employeeId"
+                        android:textColor = "#ffffff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity = "center"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+
+                        android:gravity = "center"
+                        android:padding = "5dp"
+                        android:text = "@string/employeeName"
+                        android:textColor = "#ffffff"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/cell_shape"
+                    android:gravity = "center"
+                    >
+                    <TextView
+                        android:layout_width = "wrap_content"
+                        android:layout_height = "wrap_content"
+                        android:gravity = "center"
+                        android:padding = "5dp"
+                        android:text = "@string/mno"
+                        android:textColor = "#ffffff"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <ListView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:id = "@+id/listview"
+                android:nestedScrollingEnabled="true"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:divider = "@null"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
